@@ -1,21 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  color-scheme: dark;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  background-color: #0A0A0A;
-  color: #22d3ee; /* Force default text to Cyan 400 */
-  overflow: hidden;
-}
-@keyframes scan {
-  0% { top: 0; }
-  100% { top: 100%; }
+  background-color: #09090b; /* Zinc 950 */
 }
 
-.animate-scan {
-  position: absolute;
-  animation: scan 4s linear infinite;
+@keyframes pulse {
+  0%, 100% { opacity: 0.1; transform: scale(1); }
+  50% { opacity: 0.2; transform: scale(1.1); }
+}
+
+.animate-pulse {
+  animation: pulse 8s ease-in-out infinite;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
 }
