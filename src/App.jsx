@@ -8,21 +8,21 @@ import './App.css'
 
 export default function App() {
   const projects = [
-    {
-      title: "E-Athleta: Online Student Athlete Profiling",
-      category: "Capstone Project",
-      description: "Secure profiling and analytics platform for student-athletes. Implemented real-time sync and cloud-based reporting.",
-      technologies: ["Vite", "React.js", "Node.js", "PostgreSQL", "Supabase", "SendGrid", "Render"],
-      image: "Screenshot 2025-12-15 122025.png"
-    },
-    {
-      title: "Alexa's Tech and Development",
-      category: "OJT Project",
-      description: "Full-stack engineering and development management system featuring complex role-based authentication.",
-      technologies: ["Laravel", "PHP", "Vite", "Tailwind CSS", "XAMPP", "JavaScript"],
-      image: "image.png"
-    }
-  ];
+  {
+    title: "E-Athleta",
+    category: "Advanced Secure System // Capstone",
+    description: "A robust student-athlete profiling platform featuring Two-Way Factor Authentication (2FA) and a multi-tier Role-Based Access Control (RBAC) architecture. Engineered to ensure high-level data integrity, secure session management, and granular user permissions.",
+    technologies: ["SendGrid", "Render", "PostgreSQL", "Supabase", "Vite", "React.js", "Node.js"],
+    image: "Screenshot 2025-12-15 122025.png"
+  },
+  {
+    title: "Alexa's Tech & Development",
+    category: "Corporate Brand Website // OJT",
+    description: "Official digital presence for Alexa's Tech and Development. Built to establish a professional identity, showcasing engineering services and technical solutions with a focus on clean UI, performance optimization, and cross-platform responsiveness.",
+    technologies: ["Laravel", "PHP", "Tailwind CSS", "Vite", "UI/UX Architecture"],
+    image: "image.png"
+  }
+];
 
   const skills = [
     "System Security", "Network Security", "Full-Stack Development", 
