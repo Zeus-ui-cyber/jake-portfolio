@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #0A0A0A;
+  color: #22d3ee; /* Force default text to Cyan 400 */
+  overflow: hidden;
+}
+@keyframes scan {
+  0% { top: 0; }
+  100% { top: 100%; }
+}
+
+.animate-scan {
+  position: absolute;
+  animation: scan 4s linear infinite;
+}
